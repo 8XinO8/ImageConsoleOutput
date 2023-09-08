@@ -27,7 +27,7 @@ int main() {
     logs << "Single thread : " << duration << " duration" << std::endl;
 #else
     logs << threads << " threads : " << duration <<" duration : " <<tries <<" tries" << std::endl;
-#endif // SINGLE_THREAD_CONSOLE_IMAGE
+#endif 
 
     
     std::cin.get();
